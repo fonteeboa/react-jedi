@@ -1,0 +1,160 @@
+p, button {
+	text-transform: capitalize;
+  font-family: "Courier New";
+  font-size: 14px;
+  color: white
+}
+
+.tableTitle {
+  text-align: left;
+  border-bottom: 3px solid lightgray;
+  margin-bottom: 20px;
+  text-align:initial;
+  font-family: "Lucida Console";
+  font-size: 25px;
+  width: 20%;
+  height: 29px;
+  color: #ffff33;
+}
+
+.planetList {
+  opacity: 0.9;
+}
+
+.bodyBackground {
+  background-image: url(images/star-wars-backgrounds.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  overflow:auto; 
+  cursor: url(images/lightsaber-cursor.cur),default;
+}
+
+footer {
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: 4%;
+  position: fixed;
+}
+
+.footerIcon {
+  display: inline-block;
+  clear: both;
+  color: #ffff33;
+  text-decoration: none;
+  margin-top: 6px;
+}
+
+a:hover {
+	color:Grey;
+  transition: all .2s;
+}
+
+.bgColorWhite {
+  background-color: black;
+}
+
+.shadowCustom {
+  box-shadow: 5px 5px 7px darkgray;
+  border-radius: 15px
+}
+
+.tableMasterArea {
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+.sticky {
+  position: fixed;
+  display: block;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  height: 5%; 
+  background-color: black;   
+}
+
+.overflowHidden {
+  overflow: hidden;
+  height: 40px;
+}
+
+.loadingCenter {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingphrase {
+  margin-left: 7px;
+  color: #ffff33;
+}
+
+.socialLinksUl {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+
+}
+
+.socialLinksUl li{
+  display:block;
+  float:left;
+  height: 100%;
+}
+
+.navMenu {
+  width: 9%;
+  background-color: black;
+  text-align: center;
+  padding-top: 0.5%;
+}
+
+.navMenuButton {
+  background-color: black; /* Green */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  border: none;
+}
+.ulWord:hover {
+  text-transform: 0.1px solid transparent;
+	color:Grey;
+}
+
+.ulWord {
+  padding-top: 4%;
+  color: #ffff33;
+}
+
+.initalPhrase {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouselCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.imgcarousel {
+  max-width: "850px";
+  text-align: "center";
+  max-height: "500px";
+  margin: "40px auto";
+}
+.h2class {
+  font-family: "Lucida Console";
+  margin-top: 8%;
+  color: #ffff33;
+}
