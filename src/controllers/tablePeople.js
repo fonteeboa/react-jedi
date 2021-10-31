@@ -8,7 +8,7 @@ export default ({title, items}) => {
             <div className="tableTitle">
                 <h2 className="lead ">{title}</h2>
             </div>
-            <table className="table table-striped rounded bgColorWhite shadowCustom">
+            <table className="table table-striped rounded shadowCustom bgColorCss">
                 <thead>
                     <tr>
                     <th><p>name</p></th>
