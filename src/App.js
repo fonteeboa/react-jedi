@@ -25,7 +25,7 @@ export default () => {
         <nav className="sticky">
           <ul className="socialLinksUl">
             <li className="navMenu">
-              <button className="navMenuButton" onClick={() => setViewSelected(null)} ><p className="ulWord">Inicio</p></button>
+              <button className="navMenuButton" onClick={() => setViewSelected(null)} ><p className="ulWord">Home</p></button>
             </li>
             <li className="navMenu">
               <button className="navMenuButton" onClick={() => setViewSelected('films')} ><p className="ulWord">films</p></button>
