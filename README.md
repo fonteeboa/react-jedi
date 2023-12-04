@@ -1,10 +1,5 @@
-# reactstarwarsapi
+<h1 align="center"> React Star Wars Api </h1>
 
-Project in react using a star wars api Swapi (https://swapi.dev).
+<p align="center"> <strong>Projeto em React que utiliza a API Star Wars, SWAPI (https://swapi.dev).</strong> </p>
 
-# Steps to run this project
-execute the nexts commands in your git dash.
-
-1. npm i
-
-2. npm start
+Este projeto em React foi desenvolvido para explorar e utilizar a API Star Wars (SWAPI), uma API pública que fornece informações sobre personagens, planetas, naves espaciais, veículos, filmes e espécies da franquia Star Wars.
